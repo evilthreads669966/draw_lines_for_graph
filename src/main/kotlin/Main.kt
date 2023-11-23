@@ -23,10 +23,9 @@ fun main() {
         val input = readlnOrNull()?.trim()
         if(input.isNullOrBlank()) continue
         if(input.lowercase() == "draw")
-            if(draw() == null) continue
-        if(input.lowercase() == "function"){
-            if(function() == null) continue
-        }
+            draw()
+        if(input.lowercase() == "function")
+            function()
     }
 }
 
