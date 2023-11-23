@@ -1,6 +1,6 @@
 # Draw Lines For Graph
 
-An app that can draw lines for a graph and tell you whether a line is a function.
+A command line app that can draw lines for a graph and tell you whether a line is a function.
 
 <table>
    <tr>
